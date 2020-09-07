@@ -1,6 +1,56 @@
 [
   {
     "changelog": {
+      "de": "- Der Parameter `hideLearnMore` wurde wieder aktiviert, er erlaubt es, den \"Anpassen\" Link im Hinweisdialog zu entfernen.\n- In der Beschreibung des Hinweisdialogs kann nun der \"Anpassen\" Link direkt im Text angezeigt werden.\n- Das Erscheinungsbild der Buttons im Hinweisdialog auf kleinen Bildschirmen wurde verbessert.\n",
+      "en": "- Add back the functionality of the `hideLearnMore` setting, which allows us to hide the \"Learn more\" link in the consent notice.\n- Make it possible to show the \"Learn more\" link directly in the text of the consent notice.\n- Improve styling of buttons for small screen widths, e.g. small mobile phones.\n"
+    },
+    "date": "2020-09-07",
+    "files": [
+      {
+        "name": "klaro-no-translations.js",
+        "sha384": "bAKCOOmaE/sLZFL3TbWwlDgBWZcfnd7SzIC47NYLF1r7JcAkHLLTKolgwgznH1Mq"
+      },
+      {
+        "name": "klaro.js",
+        "sha384": "t9BH2zr6Kw7Xzz+nBlVfWMK/XFLKPdyS9YJnvCfRg+SMr/JxzC+YUuZ9k588Hm33"
+      },
+      {
+        "name": "cm.js",
+        "sha384": "LwDo/Wn2jSwi/ZhQYwgCBS05075wTlho47s26q6HYFI7Q5+kFM2XjIIVvGMcCMsu"
+      },
+      {
+        "name": "klaro-no-translations-no-css.js",
+        "sha384": "v3a++7YXiE7eID8hIg8YFfk01J8TB6QIhPHIWfNON5mpKKN0JkgVY5EyAQM3LA4+"
+      },
+      {
+        "name": "translations.js",
+        "sha384": "/akYtTJaH+785A45ONYWnEDoYZPercsfaSk9X8+1pmp9NMEYHsIMeLn5+caY9Mj2"
+      },
+      {
+        "name": "klaro-no-css.js",
+        "sha384": "5Ql4Nleui2dXjFVmE4Z9mCKgriDmqVoGsEgIq7yK6jnF29w+gQUgyFPhSp77aCt+"
+      },
+      {
+        "name": "klaro.min.css",
+        "sha384": "qTQUfrp7qBwM9yOB7bIjHWtK79zP8oqqLGnjt+Iub0ZQnjjlSCulegXZ12By6WKI"
+      },
+      {
+        "name": "config.js",
+        "sha384": "RUAIhuAtuecZdZupmG+8kjlEQ+g4VFstEQWJ+NxLqEW6GQASModYv/jzsbC0lArY"
+      },
+      {
+        "name": "klaro.css",
+        "sha384": "u6tRvCQ6BLLZ8kk0GqVlLvjYRG0M7TeDMZwovNKuLlUL8fdYxNz8hwSwcCnWSTtb"
+      }
+    ],
+    "tags": [
+      "improvements",
+      "bugfixes"
+    ],
+    "version": "0.6.4"
+  },
+  {
+    "changelog": {
       "de": "- Formatierung der \u00dcbersetzungen verbessert und Informationen zu fehlenden \u00dcbersetzungs-Strings hinzugef\u00fcgt.\n- Klaro-Bin\u00e4rdateien / Distribution-Dateien werden wieder eingeschlossen.\n",
       "en": "- Improve formatting of translation files and add information about missing translation strings.\n- Include distribution files again.\n"
     },
